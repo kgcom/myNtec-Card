@@ -81,20 +81,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_card) {
             Intent intent = new Intent (this,BusinessCardActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_profile) {
             Intent intent = new Intent (this,MyProfileActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_slideshow) {
-            Intent intent = new Intent (this,EditProfileActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        }   else if (id == R.id.nav_share) {
 
         }
 
