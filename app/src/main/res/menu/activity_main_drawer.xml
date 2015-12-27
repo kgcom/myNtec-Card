@@ -10,6 +10,14 @@
             android:id="@+id/nav_card"
             android:icon="@drawable/ic_menu_card"
             android:title="My Card" />
+        <item
+            android:id="@+id/nav_mycontacts"
+            android:icon="@drawable/ic_menu_mycontacts"
+            android:title="My Contacts" />
+        <item
+            android:id="@+id/nav_nteccontacts"
+            android:icon="@drawable/ic_menu_nteccontact"
+            android:title="NTEC Contacts" />
 
     </group>
 

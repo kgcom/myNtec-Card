@@ -36,5 +36,5 @@ public class MyProfileActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-//Comment
+
 }

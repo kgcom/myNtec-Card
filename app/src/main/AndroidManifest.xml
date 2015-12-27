@@ -18,23 +18,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyProfileActivity"
+        <activity
+            android:name=".MyProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EditProfileActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".BusinessCardActivity"
+        <activity
+            android:name=".EditProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessCardActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity">
+            android:theme="@style/AppTheme.NoActionBar">
 
-
-        <!-- Parent activity meta-data to support 4.0 and lower -->
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"
-
-            />
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
+        <activity android:name=".MyContactsActivity" />
+        <activity android:name=".NtecContactsActivity"></activity>
     </application>
 
 </manifest>
