@@ -6,8 +6,8 @@
     tools:context="com.keenan.mynteccard.EditProfileActivity">
 
     <include
-        android:id="@+id/app_bar_save"
-        layout="@layout/app_bar_save">
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
 
     </include>
 
@@ -17,7 +17,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/etName"
-        android:layout_below="@+id/app_bar_save"
+        android:layout_below="@+id/app_bar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
         android:hint="Name" />

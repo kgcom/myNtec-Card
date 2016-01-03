@@ -13,7 +13,7 @@ Toolbar toolbar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
-        toolbar =(Toolbar)findViewById(R.id.app_bar_save);
+        toolbar =(Toolbar)findViewById(R.id.app_bar);
         toolbar.setTitleTextColor(getResources().getColor(R.color.colorLight));
         setSupportActionBar(toolbar);
     }
