@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/etName"
+        android:id="@+id/etEditName"
         android:layout_below="@+id/app_bar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
@@ -25,12 +25,12 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/etPosition"
-        android:layout_below="@+id/etName"
-        android:layout_alignLeft="@+id/etName"
-        android:layout_alignStart="@+id/etName"
-        android:layout_alignRight="@+id/etName"
-        android:layout_alignEnd="@+id/etName"
+        android:id="@+id/etEditPosition"
+        android:layout_below="@+id/etEditName"
+        android:layout_alignLeft="@+id/etEditName"
+        android:layout_alignStart="@+id/etEditName"
+        android:layout_alignRight="@+id/etEditName"
+        android:layout_alignEnd="@+id/etEditName"
         android:hint="Position" />
 
     <EditText
@@ -38,10 +38,10 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
-        android:id="@+id/etPhone"
-        android:layout_below="@+id/etPosition"
-        android:layout_alignLeft="@+id/etPosition"
-        android:layout_alignStart="@+id/etPosition"
+        android:id="@+id/etEditPhone"
+        android:layout_below="@+id/etEditPosition"
+        android:layout_alignLeft="@+id/etEditPosition"
+        android:layout_alignStart="@+id/etEditPosition"
         android:hint="Phone" />
 
     <EditText
@@ -49,10 +49,10 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/etEmail"
-        android:layout_below="@+id/etPhone"
-        android:layout_alignLeft="@+id/etPhone"
-        android:layout_alignStart="@+id/etPhone"
+        android:id="@+id/etEditEmail"
+        android:layout_below="@+id/etEditPhone"
+        android:layout_alignLeft="@+id/etEditPhone"
+        android:layout_alignStart="@+id/etEditPhone"
         android:hint="Email" />
 
 

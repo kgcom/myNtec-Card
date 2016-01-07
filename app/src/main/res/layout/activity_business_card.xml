@@ -65,13 +65,13 @@
         android:layout_toRightOf="@+id/textView9"
         android:layout_toEndOf="@+id/textView9"
         android:layout_marginLeft="150dp"
-        android:layout_alignParentEnd="false" />
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
+        android:text="Tutor&apos;s name"
         android:id="@+id/tv_tutorName"
 
         android:textColor="@color/colorLight"
@@ -82,7 +82,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="Position"
         android:id="@+id/tv_position"
         android:textColor="@color/colorAccent"
         android:layout_above="@+id/tv_email"
@@ -92,7 +92,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="Email"
         android:id="@+id/tv_email"
         android:textColor="@color/colorLight"
         android:layout_above="@+id/tv_phone"
@@ -102,7 +102,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="Phone"
         android:id="@+id/tv_phone"
         android:textColor="@color/colorLight"
         android:layout_alignParentBottom="true"
