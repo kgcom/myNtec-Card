@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.keenan.mynteccard.RegisterActivity"
+    android:background="#B6B6B6"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/app_bar_register"
+        layout="@layout/app_bar"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etRegisterEmail"
+        android:textColor="@color/colorPrimary"
+        android:hint="Email"
+        android:layout_below="@+id/app_bar_register"
+        android:layout_alignLeft="@+id/etConfirmUserName"
+        android:layout_alignStart="@+id/etConfirmUserName"
+        android:layout_marginTop="50dp"
+       />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etRegisterPassword"
+        android:textColor="@color/colorPrimary"
+        android:hint="Password"
+        android:layout_gravity="top"
+        android:layout_below="@+id/etConfirmUserName"
+        android:layout_alignLeft="@+id/etConfirmUserName"
+        android:layout_alignStart="@+id/etConfirmUserName" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/etConfirmPassword"
+        android:layout_alignLeft="@+id/etConfirmPassword"
+        android:layout_alignStart="@+id/etConfirmPassword"
+        android:layout_alignRight="@+id/etConfirmPassword"
+        android:layout_alignEnd="@+id/etConfirmPassword" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etConfirmUserName"
+        android:textColor="@color/colorPrimary"
+        android:hint="Confirm Email"
+        android:layout_below="@+id/etRegisterEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etConfirmPassword"
+        android:layout_below="@+id/etRegisterPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Confirm Password" />
+
+
+</RelativeLayout>
